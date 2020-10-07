@@ -15,11 +15,11 @@ mscli
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g mscli
+$ npm install -g @mshokry/mscli
 $ mscli COMMAND
 running command...
 $ mscli (-v|--version|version)
-mscli/0.1.0 darwin-x64 node-v12.16.3
+@mshokry/mscli/0.1.0 darwin-x64 node-v12.16.3
 $ mscli --help [COMMAND]
 USAGE
   $ mscli COMMAND

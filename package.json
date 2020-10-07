@@ -1,11 +1,13 @@
 {
-  "name": "mscli",
+  "name": "@mshokry/mscli",
   "version": "0.1.0",
   "author": "Mahmoud Shokry",
   "bin": {
-    "mscli": "./bin/run"
+    "mscli": "bin/run"
   },
-  "bugs": "https://github.com/MShokry/mscli/issues",
+  "bugs": {
+    "url": "https://github.com/MShokry/mscli/issues"
+  },
   "dependencies": {
     "@oclif/command": "^1",
     "@oclif/config": "^1",
@@ -43,12 +45,19 @@
       "@oclif/plugin-help"
     ]
   },
-  "repository": "MShokry/mscli",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MShokry/mscli.git"
+  },
   "scripts": {
     "postpack": "rm -f oclif.manifest.json",
     "posttest": "eslint .",
     "prepack": "oclif-dev manifest && oclif-dev readme",
     "test": "nyc mocha --forbid-only \"test/**/*.test.js\"",
     "version": "oclif-dev readme && git add README.md"
+  },
+  "description": "mscli react-native macos based CLI to init the project stucture and create templates",
+  "directories": {
+    "test": "test"
   }
 }
