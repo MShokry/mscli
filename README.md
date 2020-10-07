@@ -30,6 +30,7 @@ USAGE
 <!-- commands -->
 * [`mscli hello`](#mscli-hello)
 * [`mscli help [COMMAND]`](#mscli-help-command)
+* [`mscli init [CMD] [SUBCMD]`](#mscli-init-cmd-subcmd)
 
 ## `mscli hello`
 
@@ -65,4 +66,20 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.0/src/commands/help.ts)_
+
+## `mscli init [CMD] [SUBCMD]`
+
+Init the project
+
+```
+USAGE
+  $ mscli init [CMD] [SUBCMD]
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+```
+
+_See code: [src/commands/init.js](https://github.com/MShokry/mscli/blob/v0.0.0/src/commands/init.js)_
 <!-- commandsstop -->
