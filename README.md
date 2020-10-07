@@ -19,7 +19,7 @@ $ npm install -g mscli
 $ mscli COMMAND
 running command...
 $ mscli (-v|--version|version)
-mscli/0.0.0 darwin-x64 node-v12.16.3
+mscli/0.1.0 darwin-x64 node-v12.16.3
 $ mscli --help [COMMAND]
 USAGE
   $ mscli COMMAND
@@ -48,7 +48,7 @@ DESCRIPTION
   Extra documentation goes here
 ```
 
-_See code: [src/commands/hello.js](https://github.com/MShokry/mscli/blob/v0.0.0/src/commands/hello.js)_
+_See code: [src/commands/hello.js](https://github.com/MShokry/mscli/blob/v0.1.0/src/commands/hello.js)_
 
 ## `mscli help [COMMAND]`
 
@@ -81,5 +81,5 @@ OPTIONS
 DESCRIPTION
 ```
 
-_See code: [src/commands/init.js](https://github.com/MShokry/mscli/blob/v0.0.0/src/commands/init.js)_
+_See code: [src/commands/init.js](https://github.com/MShokry/mscli/blob/v0.1.0/src/commands/init.js)_
 <!-- commandsstop -->
