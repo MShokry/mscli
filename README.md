@@ -19,7 +19,7 @@ $ npm install -g @mshokry/mscli
 $ mscli COMMAND
 running command...
 $ mscli (-v|--version|version)
-@mshokry/mscli/0.1.0 darwin-x64 node-v12.16.3
+@mshokry/mscli/0.2.0 darwin-x64 node-v12.16.3
 $ mscli --help [COMMAND]
 USAGE
   $ mscli COMMAND
@@ -28,19 +28,18 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`mscli -help`](#mscli--help)
-* [`mscli add`](#mscli-add)
+* [`mscli add [CMD] [SUBCMD]`](#mscli-add-cmd-subcmd)
 * [`mscli hello`](#mscli-hello)
 * [`mscli help [COMMAND]`](#mscli-help-command)
 * [`mscli init [CMD] [SUBCMD]`](#mscli-init-cmd-subcmd)
 
-## `mscli -help`
+## `mscli add [CMD] [SUBCMD]`
 
 Describe the command here
 
 ```
 USAGE
-  $ mscli -help
+  $ mscli add [CMD] [SUBCMD]
 
 OPTIONS
   -n, --name=name  name to print
@@ -50,43 +49,23 @@ DESCRIPTION
   Extra documentation goes here
 ```
 
-_See code: [src/commands/-help.js](https://github.com/MShokry/mscli/blob/v0.1.0/src/commands/-help.js)_
-
-## `mscli add`
-
-Describe the command here
-
-```
-USAGE
-  $ mscli add
-
-OPTIONS
-  -n, --name=name  name to print
-
-DESCRIPTION
-  ...
-  Extra documentation goes here
-```
-
-_See code: [src/commands/add.js](https://github.com/MShokry/mscli/blob/v0.1.0/src/commands/add.js)_
+_See code: [src/commands/add.js](https://github.com/MShokry/mscli/blob/v0.2.0/src/commands/add.js)_
 
 ## `mscli hello`
 
-Describe the command here
+This Cli  is created to help me in the process of creating
 
 ```
 USAGE
   $ mscli hello
 
-OPTIONS
-  -n, --name=name  name to print
-
 DESCRIPTION
-  ...
-  Extra documentation goes here
+  React-native project
+  it's used to create folder stucture
+  and get some templates, and use it
 ```
 
-_See code: [src/commands/hello.js](https://github.com/MShokry/mscli/blob/v0.1.0/src/commands/hello.js)_
+_See code: [src/commands/hello.js](https://github.com/MShokry/mscli/blob/v0.2.0/src/commands/hello.js)_
 
 ## `mscli help [COMMAND]`
 
@@ -119,5 +98,5 @@ OPTIONS
 DESCRIPTION
 ```
 
-_See code: [src/commands/init.js](https://github.com/MShokry/mscli/blob/v0.1.0/src/commands/init.js)_
+_See code: [src/commands/init.js](https://github.com/MShokry/mscli/blob/v0.2.0/src/commands/init.js)_
 <!-- commandsstop -->
