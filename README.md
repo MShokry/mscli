@@ -28,9 +28,47 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`mscli -help`](#mscli--help)
+* [`mscli add`](#mscli-add)
 * [`mscli hello`](#mscli-hello)
 * [`mscli help [COMMAND]`](#mscli-help-command)
 * [`mscli init [CMD] [SUBCMD]`](#mscli-init-cmd-subcmd)
+
+## `mscli -help`
+
+Describe the command here
+
+```
+USAGE
+  $ mscli -help
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/-help.js](https://github.com/MShokry/mscli/blob/v0.1.0/src/commands/-help.js)_
+
+## `mscli add`
+
+Describe the command here
+
+```
+USAGE
+  $ mscli add
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/add.js](https://github.com/MShokry/mscli/blob/v0.1.0/src/commands/add.js)_
 
 ## `mscli hello`
 

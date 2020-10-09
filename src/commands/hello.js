@@ -8,13 +8,10 @@ class HelloCommand extends Command {
   }
 }
 
-HelloCommand.description = `Describe the command here
-...
-Extra documentation goes here
+HelloCommand.description = `This Cli  is created to help me in the process of creating
+React-native project
+it's used to create folder stucture
+and get some templates, and use it
 `
-
-HelloCommand.flags = {
-  name: flags.string({char: 'n', description: 'name to print'}),
-}
 
 module.exports = HelloCommand
