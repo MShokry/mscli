@@ -18,3 +18,4 @@ json -I -f package.json -e 'this.scripts.clean= "rm -rf $TMPDIR/metro-* && rm -r
 
 
 # App Icon
+

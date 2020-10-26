@@ -1,6 +1,6 @@
 import React from 'react';
-import { createStackNavigator, useRoute } from '@react-navigation/stack';
-
+import { createStackNavigator } from '@react-navigation/stack';
+import Home from '../Screens/Home';
 
 const AppStack = createStackNavigator();
 export default AppStackNav = () => {

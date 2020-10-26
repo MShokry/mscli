@@ -9,7 +9,7 @@ const MainStack = createStackNavigator();
 export default ({ contextState }) => {
   return (
     <MainStack.Navigator
-      initialRouteName="AuthLoading"
+      initialRouteName="App"
       screenOptions={{ gestureEnabled: false, headerShown: false }}>
       {contextState.loading ?
         <MainStack.Screen name="AuthLoading" component={AuthLoading} /> : null}

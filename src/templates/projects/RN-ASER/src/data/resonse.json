@@ -1,0 +1,137 @@
+{
+  "Status": {
+    "Module": 1,
+    "FriendlyName": [
+      "xChip",
+      "xChip2"
+    ],
+    "Topic": "xChip-B2E328",
+    "ButtonTopic": "0",
+    "Power": 1,
+    "PowerOnState": 3,
+    "LedState": 1,
+    "LedMask": "FFFF",
+    "SaveData": 1,
+    "SaveState": 1,
+    "SwitchTopic": "0",
+    "SwitchMode": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "ButtonRetain": 0,
+    "SwitchRetain": 0,
+    "SensorRetain": 0,
+    "PowerRetain": 0
+  },
+  "StatusPRM": {
+    "Baudrate": 115200,
+    "GroupTopic": "xChips",
+    "OtaUrl": "http://xiot.io/firmware/xChip.bin",
+    "RestartReason": "Software/System restart",
+    "Uptime": "0T00:03:07",
+    "StartupUTC": "",
+    "Sleep": 50,
+    "CfgHolder": 4617,
+    "BootCount": 8,
+    "SaveCount": 15,
+    "SaveAddress": "1F5000"
+  },
+  "StatusFWR": {
+    "Version": "6.5.0.13(xChip)",
+    "BuildDateTime": "2019-07-11T16:44:43",
+    "Boot": 5,
+    "Core": "2_5_2",
+    "SDK": "2.2.1(cfd48f3)"
+  },
+  "StatusLOG": {
+    "SerialLog": 2,
+    "WebLog": 2,
+    "SysLog": 0,
+    "LogHost": "",
+    "LogPort": 514,
+    "SSId": [
+      "",
+      ""
+    ],
+    "TelePeriod": 300,
+    "Resolution": "558180C0",
+    "SetOption": [
+      "00008009",
+      "280500000100060000000000000000000000",
+      "00000000"
+    ]
+  },
+  "StatusMEM": {
+    "ProgramSize": 623,
+    "Free": 1404,
+    "Heap": 22,
+    "ProgramFlashSize": 4096,
+    "FlashSize": 4096,
+    "FlashChipId": "1640C8",
+    "FlashMode": 2,
+    "Features": [
+      "00000809",
+      "1FDAE394",
+      "001783A0",
+      "23B617CC",
+      "01003BC0"
+    ]
+  },
+  "StatusNET": {
+    "Hostname": "xChip-B2E328",
+    "IPAddress": "(IP unset)",
+    "Gateway": "192.168.1.1",
+    "Subnetmask": "255.255.255.0",
+    "DNSServer": "192.168.1.1",
+    "Mac": "5C:CF:7F:B2:E3:28",
+    "Webserver": 2,
+    "WifiConfig": 4
+  },
+  "StatusMQT": {
+    "MqttHost": "",
+    "MqttPort": 1883,
+    "MqttClientMask": "xChip-%06X",
+    "MqttClient": "xChip-B2E328",
+    "MqttUser": "DVES_USER",
+    "MqttCount": 0,
+    "MAX_PACKET_SIZE": 1000,
+    "KEEPALIVE": 15
+  },
+  "StatusTIM": {
+    "UTC": "Thu Jan 01 00:04:47 1970",
+    "Local": "Thu Jan 01 00:04:47 1970",
+    "StartDST": "Thu Jan 01 00:00:00 1970",
+    "EndDST": "Thu Jan 01 00:00:00 1970",
+    "Timezone": "+00:00",
+    "Sunrise": "07:43",
+    "Sunset": "16:03"
+  },
+  "StatusSNS": {
+    "Time": "1970-01-01T00:04:47",
+    "Switch1": "ON"
+  },
+  "StatusSTS": {
+    "Time": "1970-01-01T00:04:47",
+    "Uptime": "0T00:03:07",
+    "SleepMode": "Dynamic",
+    "Sleep": 50,
+    "LoadAvg": 19,
+    "POWER1": "ON",
+    "POWER2": "OFF",
+    "Wifi": {
+      "AP": 1,
+      "SSId": "",
+      "BSSId": "C4:E9:84:29:52:B0",
+      "Channel": 1,
+      "RSSI": 100,
+      "LinkCount": 0,
+      "Downtime": "0T00:00:00"
+    }
+  }
+}

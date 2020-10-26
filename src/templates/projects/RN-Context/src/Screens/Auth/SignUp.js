@@ -2,9 +2,6 @@ import React, { useReducer, useState, useContext, useRef } from 'react';
 import {
   ImageBackground,
   View,
-  Dimensions,
-  ScrollView,
-  KeyboardAvoidingView,
   Image,
   SafeAreaView
 } from 'react-native';
